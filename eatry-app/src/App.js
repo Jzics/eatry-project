@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Laurels, SpecialMenu } from './container/index';
+
 import { Navbar } from './components';
 import './App.css';
+import Introduction from './container/Introduction/Introduction';
 
 const App = () => (
   <div>
@@ -11,7 +13,7 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Chef />
-    <Intro />
+    <Introduction />
     <Laurels />
     <Gallery />
     <FindUs />
